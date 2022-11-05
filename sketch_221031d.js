@@ -1,5 +1,7 @@
-// baseado no trabalho de David Leyva: https://wp.nyu.edu/davidaleyva/assignment-4-oscillation/
-// Mic Input: https://p5js.org/examples/sound-mic-input.html
+// baseado nos trabalhos de David Leyva: https://wp.nyu.edu/davidaleyva/assignment-4-oscillation/ 
+//e de Cris Duarte e Rolf Simoes: https://github.com/crisduarte/pintando-com-a-voz
+//Agradecimentos especiais ao mestre Sergio Venancio
+
 
 //declares variable for the ocean wave
 let wave;
