@@ -36,7 +36,7 @@ function setup() {
 
     // set text properties
   textAlign(CENTER);
-  fill(70,130,180, 60);
+  fill(255);
 
   textSize(width * 0.67 / textWidth('this text fits 67% of the canvas width') * textSize());
    
