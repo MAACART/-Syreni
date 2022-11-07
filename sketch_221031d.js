@@ -1,7 +1,7 @@
-
 // baseado nos trabalhos de David Leyva: https://wp.nyu.edu/davidaleyva/assignment-4-oscillation/ 
 //e de Cris Duarte e Rolf Simoes: https://github.com/crisduarte/pintando-com-a-voz
 //Agradecimentos especiais ao mestre Sergio Venancio
+//programação Miguel Alonso e Vinicius Hiroshi
 
 
 //declares variable for the ocean wave
@@ -24,7 +24,7 @@ var canvas;
 var cor;
 
 function preload(){
-  img = loadImage('assets/barco.png');
+  img = loadImage('assets/BARC0.png');
 }
 
 function setup() {
@@ -41,7 +41,7 @@ function setup() {
   textSize(width * 0.67 / textWidth('this text fits 67% of the canvas width') * textSize());
    
   mic = new p5.AudioIn(startMicError); 
-  img.resize(202,86); // mudando o tamanho do barco (diminuir o tamanho do barco) rancar foraaaa
+  //img.resize(202,86); // mudando o tamanho do barco (diminuir o tamanho do barco) rancar foraaaa
 
   canvas.mousePressed(startMicGesture);
   startMicMsg();
@@ -159,7 +159,7 @@ class Boat {
     //moves current x and y boat position over from top left of canvas to middle left
     translate(this.x, this.y);
     fill(0);
-    ellipse(0,0,20);
+    ellipse(0,0,10);
     //makes the boat tilt and rotate on the canvas
     rotate(this.angle);
 
@@ -167,7 +167,7 @@ class Boat {
       //noStroke();
       //fill('black');
       //quad(-150, -50, 150, -50, 100, 50, -100, 50);
-      image(imgP,-100,-80);; // imagem do barco 
+      image(imgP,-100,-130);; // imagem do barco 
 
         
     //pop function to restore current boat drawing settings
