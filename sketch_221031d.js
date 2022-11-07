@@ -167,7 +167,7 @@ class Boat {
       //noStroke();
       //fill('black');
       //quad(-150, -50, 150, -50, 100, 50, -100, 50);
-      image(imgP,-100,-130);; // imagem do barco 
+      image(imgP,-100,-115);; // imagem do barco 
 
         
     //pop function to restore current boat drawing settings
