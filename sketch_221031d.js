@@ -1,5 +1,6 @@
 // baseado nos trabalhos de David Leyva: https://wp.nyu.edu/davidaleyva/assignment-4-oscillation/ 
-//e de Cris Duarte e Rolf Simoes: https://github.com/crisduarte/pintando-com-a-voz
+// Cris Duarte e Rolf Simoes: https://github.com/crisduarte/pintando-com-a-voz
+// e de Daniel Shiffman: https://p5js.org/examples/math-noise-wave.html
 //Agradecimentos especiais ao mestre Sergio Venancio
 //programação Miguel Alonso e Vinicius Hiroshi
 
